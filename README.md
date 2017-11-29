@@ -82,5 +82,4 @@ function init () {
 
 
 ```
-Оригинальная ссылка на
 [Ссылка на оригинальную статью](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/#icon-style)
