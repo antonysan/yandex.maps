@@ -1,5 +1,27 @@
 # Подключение карты и кастомного маркера
-Содержание script.js:
+### Содержание HTML 
+``` HTML
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Быстрый старт. Размещение интерактивной карты на странице</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+<body>
+    <div id="map" style="width: 1200px; height: 400px"></div>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="js/script.js" type="text/javascript">
+    </script>
+</body>
+
+</html>
+
+```
+---
+### Содержание script.js
 ``` Javascript
 ymaps.ready(init);
   
@@ -25,7 +47,7 @@ function init () {
 }
 
 ``` 
-------------------------------------------------
+---
 `center:`  — Координаты для центрирования карты.<br>
 `zoom: 15` — Уровень приближения к центру карты.<br>
 
@@ -61,4 +83,4 @@ function init () {
 
 ```
 Оригинальная ссылка на
-[статью в yandex](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/#icon-style)
+[Ссылка на оригинальную статью](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/#icon-style)
