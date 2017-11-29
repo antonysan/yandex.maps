@@ -77,4 +77,5 @@ function init () {
 
 
 ```
-[Ссылка на оригинальную статью](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/#icon-style)
+[Посмотреть карту](https://antonysan.github.io/yandex.maps/index.html)<br>
+[Посмотреть оригинальную статью](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/#icon-style)
